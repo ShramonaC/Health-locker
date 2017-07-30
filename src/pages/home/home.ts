@@ -4,7 +4,7 @@ import { AngularFireModule} from 'angularfire2';
 import {FirebaseListObservable, FirebaseObjectObservable } from 'angularfire2/database';
 import * as firebase from 'firebase';
 @Component({
-  selector: 'page-home','app',
+  selector: 'page-home',
   templateUrl: 'home.html'
 })
 export class HomePage {
