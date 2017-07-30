@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Storage
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="about">
+<div>
+	<input type="file" (change)="selectFile($event)">
+	<img [src]="image" *ngIf="image" style="margin: 10px;max-width:300px;">
+	<button color="primary" ion-button (click)="startUpload()">Upload Document </button>
+</div>
+</ion-content>

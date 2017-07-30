@@ -1,1 +1,3 @@
 android dependency addition : npm install promise-polyfill --save-exact
+
+git push :  git push -u origin master

@@ -8,6 +8,8 @@ import * as firebase from 'firebase';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { AboutPage } from '../pages/about/about';
+import {MedPage} from '../pages/med/med';
 
 export const config = {
 	apiKey: "AIzaSyCJJKmo8jIS0UYE1UEfTJjiCepQeGId6Qg",
@@ -34,7 +36,9 @@ export const config = {
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    AboutPage,
+    MedPage
   ],
   imports: [
     BrowserModule,
@@ -44,7 +48,9 @@ export const config = {
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage
+    HomePage,
+    AboutPage,
+    MedPage
   ],
   providers: [
     StatusBar,
