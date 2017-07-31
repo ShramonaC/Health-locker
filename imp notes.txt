@@ -1,3 +1,6 @@
 android dependency addition : npm install promise-polyfill --save-exact
 
 git push :  git push -u origin master
+
+
+android continuos run: ionic cordova run android -lc

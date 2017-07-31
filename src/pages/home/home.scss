@@ -1,5 +1,8 @@
 .ios,.md{
 .home {
+background-image:url('../assets/img/back.jpg');
+background-position:center;
+background-repeat:no repeat;
 ion-card {
 		margin-top: 50px;
 		overflow: visible;
@@ -10,9 +13,6 @@ ion-card {
 	}
 }
 
-.dark{
-	text-align: center;
-	width: 300;
-}
+
 
 }

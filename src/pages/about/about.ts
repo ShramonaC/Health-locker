@@ -45,4 +45,5 @@ export class AboutPage {
 		
 		reader.readAsDataURL(file);
 	}
+
 }

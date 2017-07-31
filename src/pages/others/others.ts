@@ -24,7 +24,6 @@ export class OthersPage {
 		this.storageRef.child("Others/CV.jpg").getDownloadURL().then((url)=> {
 		this.zone.run(()=> {
 			 console.log(url);
-		//this.image =url;
 
 		});
 		});
