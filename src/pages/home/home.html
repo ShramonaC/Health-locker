@@ -1,14 +1,35 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>
-      Ionic2 Storage
+  <ion-navbar color="secondary">
+    <ion-title >
+      Medical locker
     </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding >
-<div>
-<button [navPush]="aboutPage">Add Prescription</button> </div>
-<button [navPush]="medPage">Add Medical bill</button>
+<ion-content padding class="home">
+<div class="dark">
+<button color="danger" ion-button [navPush]="aboutPage">Add Prescription </button>
+&nbsp;
+&nbsp;
+&nbsp;
+</div>
+&nbsp;
+<div class="dark">
+<button color="danger" ion-button [navPush]="medPage">Add Medical bills </button>
+
+</div>
+&nbsp;
+&nbsp;
+<div class="dark">
+<button color="danger" ion-button [navPush]="insuPage">Add Insurance    </button>
+
+</div>
+&nbsp;
+&nbsp;
+<div class="dark">
+<button color="danger" ion-button [navPush]="othersPage">Others   </button>
+
+</div>
+
 
 </ion-content>

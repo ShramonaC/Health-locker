@@ -10,6 +10,8 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { AboutPage } from '../pages/about/about';
 import {MedPage} from '../pages/med/med';
+import {InsuPage} from '../pages/insu/insu';
+import {OthersPage} from '../pages/others/others';
 
 export const config = {
 	apiKey: "AIzaSyCJJKmo8jIS0UYE1UEfTJjiCepQeGId6Qg",
@@ -38,7 +40,9 @@ export const config = {
     MyApp,
     HomePage,
     AboutPage,
-    MedPage
+    MedPage,
+    InsuPage,
+    OthersPage
   ],
   imports: [
     BrowserModule,
@@ -50,7 +54,9 @@ export const config = {
     MyApp,
     HomePage,
     AboutPage,
-    MedPage
+    MedPage,
+    InsuPage,
+    OthersPage
   ],
   providers: [
     StatusBar,

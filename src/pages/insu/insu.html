@@ -1,7 +1,7 @@
 <ion-header>
   <ion-navbar color="secondary">
     <ion-title>
-      Keep your prescriptions here!!
+      Keep your Insurance documents here!!
     </ion-title>
   </ion-navbar>
 </ion-header>
@@ -9,7 +9,7 @@
 <ion-content padding class="about">
 <div>
 	<input type="file" (change)="selectFile($event)">
-	<img [src]="image" *ngIf="image" style="margin: 10px;max-width:300px; max-size :1*1024*1024;">
+	<img [src]="image" *ngIf="image" style="margin: 10px;max-width:300px;">
 	<button color="primary" ion-button (click)="startUpload()">Upload Document </button>
 </div>
 </ion-content>

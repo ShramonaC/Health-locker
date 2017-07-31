@@ -1,3 +1,18 @@
-page-home {
+.ios,.md{
+.home {
+ion-card {
+		margin-top: 50px;
+		overflow: visible;
+		 ion-card-content{
+		 background-color:map-get($colors,primary);
+		 text-align: center;
+		 }
+	}
+}
+
+.dark{
+	text-align: center;
+	width: 300;
+}
 
 }
